@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <title>Car cheque</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Mapbox -->
+    <!-- <script src="https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css" rel="stylesheet" /> -->
+
+    <!-- Google Font -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600&display=swap" rel="stylesheet"> -->
+
+</head>
+
+<body>
+    <div id="header"> 
+        <span id="questionLable">Hoe lang is de bus? L1/L2/L3</span>
+        <select id="querySelection" name="query" onchange="changeSelectedQuestion()">\
+            <option value="lang">kort/lang/extralang</option>\
+            <option value="btw">BTW</option>\
+            <option value="ramen">Aantal ramen</option>\
+            <option class="nbrBord" value="nbrBord">Nummerbord</option>\
+        </select>
+        <div id="questionArea"></div>
+    </div>
+    <div id="car"></div>
+    <div id="footer"></div>
+
+    <!-- Javascript file -->
+    <script type="text/javascript" src="index.js"></script>
+
+</body>
+
+</html>

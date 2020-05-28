@@ -1,0 +1,26 @@
+Todo.txt
+[ ] - Yes <-> No functionality
+[ ] - numberplate into RDW - data extraction
+    [ ] - import?
+    [ ] - vervuling
+    [ ] - Cilinders
+[X] - km stand string => nbr
+[X] - prijs String => nbr
+[ ] - scrape
+    [ ] - Not al fotos get selected
+    [ ] - description get html
+    [ ] - url cars do not save
+
+[X] - while queue not empty extract data
+[X] - description in one var insted of array
+[X] - save after every data extraction ofr relaiability
+[ ] - connect all steps: search, exstract, convert, export
+[ ] - Maybe: convert json to csv automaticaly
+[ ] - serch and extract on other websites
+    [ ] - gaspedaal
+    [ ] - autoscout 24
+    [ ] - vakgarage? - niet veel content 
+[ ] - Test urls of extracted cars for still existing
+[ ] - 
+[ ] - 
+[ ] - 
